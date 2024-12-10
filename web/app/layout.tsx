@@ -26,10 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script
-          type="text/javascript"
-          src="https://cdn.weglot.com/weglot.min.js"
-        ></script>
+        <script async src="https://cdn.weglot.com/weglot.min.js"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
