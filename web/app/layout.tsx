@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script async src="https://cdn.weglot.com/weglot.min.js"></script>
+        {/* <script async src="https://cdn.weglot.com/weglot.min.js"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -35,7 +35,7 @@ export default function RootLayout({
               });
             `,
           }}
-        />
+        /> */}
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
